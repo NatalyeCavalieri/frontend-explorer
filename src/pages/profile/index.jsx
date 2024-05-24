@@ -336,7 +336,7 @@ export function Profile() {
                     label="Nome"
                     id="name"
                     type="text"
-                    placeholder="Exemplo: Maria da Silva"
+                    placeholder="Exemplo: João Miguel Souza"
                     autoComplete="off"
                     value={name}
                     onChange={handleValidateName}
@@ -397,7 +397,7 @@ export function Profile() {
                   label="Endereço"
                   id="street"
                   type="text"
-                  placeholder="Exemplo: Rua Mario Eliseu Faria"
+                  placeholder="Exemplo: Rua Manuel do reis"
                   autoComplete="off"
                   value={street}
                   onChange={(e) => setStreet(e.target.value)}
@@ -408,7 +408,7 @@ export function Profile() {
                   label="Número"
                   id="number"
                   type="number"
-                  placeholder="Exemplo: 48"
+                  placeholder="Exemplo: 10"
                   autoComplete="off"
                   value={number}
                   onChange={(e) => setNumber(e.target.value)}
@@ -420,7 +420,7 @@ export function Profile() {
                     label="Cep"
                     id="cep"
                     type="text"
-                    placeholder="Exemplo: 08223580"
+                    placeholder="Exemplo: 08696060"
                     autoComplete="off"
                     maxLength={8}
                     value={cep}
@@ -436,7 +436,7 @@ export function Profile() {
                   label="Complemento"
                   id="complement"
                   type="text"
-                  placeholder="Exemplo: Próximo a estação"
+                  placeholder="Exemplo: Próximo ao mercado Nagumo"
                   autoComplete="off"
                   value={complement}
                   onChange={(e) => setComplement(e.target.value)}
@@ -447,7 +447,7 @@ export function Profile() {
                   label="Bairro"
                   id="district"
                   type="text"
-                  placeholder="Exemplo: Belém"
+                  placeholder="Exemplo: Jd. Europa"
                   autoComplete="off"
                   value={district}
                   onChange={(e) => setDistrict(e.target.value)}
@@ -460,7 +460,7 @@ export function Profile() {
                   label="Cidade"
                   id="city"
                   type="text"
-                  placeholder="Exemplo: São Tomé"
+                  placeholder="Exemplo: Suzano"
                   autoComplete="off"
                   value={city}
                   onChange={(e) => setCity(e.target.value)}
@@ -471,7 +471,7 @@ export function Profile() {
                   label="Estado"
                   id="country"
                   type="text"
-                  placeholder="Exemplo: MG"
+                  placeholder="Exemplo: SP"
                   autoComplete="off"
                   value={country}
                   onChange={(e) => setCountry(e.target.value)}

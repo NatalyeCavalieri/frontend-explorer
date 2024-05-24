@@ -1,5 +1,7 @@
 import { Container, Category } from "./style"
 import { FaTags, FaMagnifyingGlass } from "react-icons/fa6"
+import { FaFilter} from "react-icons/fa"
+
 import { IoClose } from "react-icons/io5"
 import { useEffect, useState } from "react"
 
@@ -69,7 +71,7 @@ export default function Search({
       <IoClose onClick={onClick} />
 
       <Category $hideCategoryMenu={hideCategoryMenu}>
-        <FaTags onClick={handleCategory} />
+        <FaFilter onClick={handleCategory} />
 
         <div >
           <label className="checkbox-container" onClick={handleCheckBoxSnack}>

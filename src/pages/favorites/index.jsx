@@ -12,7 +12,6 @@ import ToGoBack from "../../components/toGoBack"
 import CartItem from "../../components/cartItemCheckout"
 import Button from "../../components/button"
 
-import { FaHeart } from "react-icons/fa"
 import { AiOutlineLoading3Quarters } from "react-icons/ai"
 
 import { api } from "../../services"
@@ -127,11 +126,7 @@ export function Favorites() {
                 ))
               ) : [USER_ROLES.ADMIN].includes(user.role) ? (
                 <NoFavorites>
-                  <h2>Nenhum prato favorito foi encontrado</h2>
-                  <p>
-                    Aguarde os clientes clicarem no botão favorito <FaHeart />{" "}
-                    para <strong>Adicionar</strong> a essa página.
-                  </p>
+                  <h2>Nenhum prato favorito foi favoritado</h2>
 
                   <div>
                     <Button title="Voltar a home" to="/" />

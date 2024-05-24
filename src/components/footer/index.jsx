@@ -1,6 +1,5 @@
 import { Container, Content, Brand } from "./style"
 import polygonFooter from "../../assets/icons/polygonFooter.svg"
-import { FaLinkedin } from "react-icons/fa"
 
 export default function Footer() {
   return (
@@ -13,9 +12,6 @@ export default function Footer() {
 
         <div>
           <p>© 2024 - Todos os direitos reservados.</p>
-          <a target="_blank" href="https://www.linkedin.com/in/a1exlima/">
-            <FaLinkedin />
-          </a>
         </div>
       </Content>
     </Container>

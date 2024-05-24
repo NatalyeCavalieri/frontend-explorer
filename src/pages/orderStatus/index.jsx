@@ -75,11 +75,10 @@ export function OrderStatus() {
                 ))
               ) : (
                 <div className="no-orders">
-                  <h1>Você não possui pedidos</h1>
+                    <h1>Você não possui pedidos</h1>
                   {[USER_ROLES.ADMIN].includes(user.role) ? (
                     <p>
-                      Nenhum cliente <span>finalizou</span> a compra de um
-                      pedido.
+                      Não há pedidos finalizados
                     </p>
                   ) : (
                     <p>

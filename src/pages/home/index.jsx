@@ -1,6 +1,6 @@
 import { Container, Main, Content, Presentation } from "./style"
 
-import React, { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import { useNavigate } from "react-router-dom"
 
 import { Splide, SplideSlide } from "@splidejs/react-splide"
@@ -68,6 +68,7 @@ export function Home() {
       const response = await api.get(
         `/dish?name=${searchValue}&category=${category}`
       )
+      console.log(response.data);
 
       const snack = response.data.filter((dish) => dish.category === "Refeição")
       const dessert = response.data.filter(
