@@ -1,6 +1,6 @@
 import { Container, Main, Content, ContentOrderCompleted } from "./style"
 
-import noAuthorized401 from "../../assets/images2/401-error-wordpress-featured-image.jpg"
+import noAuthorized401 from "../../assets/images/401-error-wordpress-featured-image.jpg"
 
 import Footer from "../../components/footer"
 

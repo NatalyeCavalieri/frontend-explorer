@@ -135,7 +135,7 @@ export function SignUp() {
             label="Nome"
             id="name"
             type="text"
-            placeholder="Exemplo: Maria da Silva"
+            placeholder="Exemplo: João Migual Souza"
             $margin={!validName}
           />
           {validName && <p>{validName}</p>}
